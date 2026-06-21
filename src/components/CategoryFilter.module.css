@@ -1,0 +1,54 @@
+.filterBar {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  flex-wrap: wrap;
+  background: #f8f9fa;
+  border: 1px solid #e9ecef;
+  border-radius: 12px;
+  padding: 14px 16px;
+}
+
+.label {
+  font-size: 13px;
+  font-weight: 600;
+  color: #495057;
+  white-space: nowrap;
+  padding-top: 5px;
+}
+
+.chips {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.chip {
+  display: inline-flex;
+  align-items: center;
+  padding: 5px 14px;
+  border: 1.5px solid #dee2e6;
+  border-radius: 20px;
+  font-size: 13px;
+  color: #495057;
+  background: #fff;
+  cursor: pointer;
+  user-select: none;
+  transition: border-color 0.15s, background 0.15s, color 0.15s;
+}
+
+.chip:hover {
+  border-color: #0071ce;
+  color: #0071ce;
+}
+
+.chip.active {
+  border-color: #0071ce;
+  background: #0071ce;
+  color: #fff;
+  font-weight: 500;
+}
+
+.hidden {
+  display: none;
+}
